@@ -17,7 +17,7 @@ while i <= 3:
     pwd = input('输入密码')
     if key == pwd:
         print('可以进入创始村')
-        i = 4
+        break
     else:
         print('密码错误')
         i = i + 1

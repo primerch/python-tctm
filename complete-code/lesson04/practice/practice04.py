@@ -15,7 +15,7 @@ while i <= 2:
     guess = input('请输入谜语答案：')
     if guess == answer:
         print('答案正确')
-        i = 3
+        break
     else:
         print('答案错误')
         i = i + 1
