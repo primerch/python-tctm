@@ -1,6 +1,5 @@
-state = True
 money = 0
-while state:
+while True:
     print('****************【创始村电子商城】*****************')
     print('尊敬的用户您好，本商城有如下商品，请自行选购')
     print('**************************************************')
@@ -19,5 +18,5 @@ while state:
             print('消费：198')
             money = money + 198
     if goods == '退出':
-        state = False
         print('总价格：', money)
+        break
