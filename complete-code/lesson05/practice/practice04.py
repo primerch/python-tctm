@@ -10,8 +10,7 @@ print('**石头剪刀布**')
 print('**预备~开始!**')
 
 # 请在下方编写石头剪刀布的代码
-state = True
-while state:
+while True:
     gesture = input("请输入你的手势：")
     if gesture == '石头':
         print('平局！请重新输入')
@@ -19,4 +18,4 @@ while state:
         print('失败！请重新输入')
     if gesture == '布':
         print('胜利！')
-        state = False
+        break
