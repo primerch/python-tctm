@@ -1,0 +1,16 @@
+# 练习1
+# 编写代码，首先使用输入框输入任意一个字符串，然后查找该字符串中是否存在子字符串“hello”。
+# 如果存在，则输出该子字符串的第一个字符的索引；如果不存在，则输出“Not found”。
+# 提示：
+# （1）input()实现输入框功能
+# （2）if-else语句判断自字符串"hello"是否存在于输入的字符串中
+# （3）利用index()得到子字符串"hello"的索引
+# 在下方编写你的代码
+str = input('请输入一个字符串: ')
+if 'hello' in str:
+    index = str.index('hello')
+    print(index)
+else:
+    print('Not found')
+
+

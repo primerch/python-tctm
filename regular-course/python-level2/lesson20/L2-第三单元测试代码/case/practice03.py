@@ -1,0 +1,22 @@
+# 练习3
+# 自定义插入排序函数，将列表scores进行从小到大的顺序排序并将排好序的列表输出在控制台上
+# 提示：
+# （1）插入排序函数名insertSort
+# （2）外层循环用来遍历未排序的元素
+# （3）内层循环用来将当前要排序的元素正确归位
+# （4）变量交换：a,b=b,a
+# （5）break语句用于结束当前循环，跳出当前所在的循环结构
+scores = [97,95,92,99,100,98,91,93,96,94]
+# 在下方编写你的代码
+def insertSort(list):
+    for i in range(1, len(list)):
+        for j in range(i, 0, -1):
+            if list[j] < list[j - 1]:
+                list[j], list[j - 1] = list[j - 1], list[j]
+            else:
+                break
+insertSort(scores)
+print(scores)
+
+
+
