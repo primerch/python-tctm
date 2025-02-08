@@ -1,0 +1,7 @@
+# 课堂练习4
+# 创建一个以animals文件夹中文件名为键的字典并输出
+import os
+
+keys = os.listdir('animals/')
+gameDict = dict.fromkeys(keys)
+print(gameDict)

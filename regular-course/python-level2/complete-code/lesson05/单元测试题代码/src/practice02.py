@@ -9,12 +9,9 @@
 # （6）更新显示：pygame.display.update()
 import pygame
 import sys
+
 pygame.init()
-screen = pygame.display.set_mode((658,507))
+screen = pygame.display.set_mode((658, 507))
 bg2 = pygame.image.load('bg2.jpg')
 run = pygame.image.load('run.jpg')
 # 请在下方完善代码
-
-
-
-

@@ -11,16 +11,14 @@
 # （8）将获取用户事件的代码放在while循环中
 import pygame
 import sys
+
 pygame.init()
 # 请在下方完成代码
-screen=pygame.display.set_mode((800,432))
+screen = pygame.display.set_mode((800, 432))
 bg = pygame.image.load("bg.png")
-screen.blit(bg,(0,0))
+screen.blit(bg, (0, 0))
 pygame.display.update()
 while True:
     for e in pygame.event.get():
         if e.type == pygame.QUIT:
             sys.exit()
-
-
-

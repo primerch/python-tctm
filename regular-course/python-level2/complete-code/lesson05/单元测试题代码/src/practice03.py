@@ -9,6 +9,7 @@
 # （6）更新屏幕显示pygame.display.update()
 import pygame
 import sys
+
 pygame.init()
 screen = pygame.display.set_mode((700, 800))
 bg = pygame.image.load("white.png")
@@ -17,14 +18,10 @@ xiaopai2 = pygame.image.load("2.png")
 xiaopai3 = pygame.image.load("3.png")
 xiaopai4 = pygame.image.load("4.png")
 xiaopai5 = pygame.image.load("5.png")
-xiaopai = [xiaopai1,xiaopai2,xiaopai3,xiaopai4,xiaopai5]
-index=0
+xiaopai = [xiaopai1, xiaopai2, xiaopai3, xiaopai4, xiaopai5]
+index = 0
 while True:
     for e in pygame.event.get():
         if e.type == pygame.QUIT:
             sys.exit()
     # 在下方编写你的代码
-
-
-
-

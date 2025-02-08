@@ -1,0 +1,11 @@
+player = {'HP': 1000,
+          'maxHP': 1000,
+          'atk': 100,
+          'def': 50,
+          'addHP': 200,
+          'addAtk': 200,
+          'addDef': 100,
+          'magic': 1000}
+# 练习增加元素
+player['money'] = 2000
+print(player)

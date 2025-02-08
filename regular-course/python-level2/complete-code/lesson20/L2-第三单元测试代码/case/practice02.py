@@ -6,12 +6,10 @@
 # （2）删除字典中的元素：del 字典名[键]
 # （3）添加元素：字典名[键]=值
 # （4）获取字典中所有键值对的函数是items()
-contact={'童童':'12345','小派':'23456','pygame精灵':'34567','字符串精灵':'45679','程程老师':'98765'}
+contact = {'童童': '12345', '小派': '23456', 'pygame精灵': '34567', '字符串精灵': '45679', '程程老师': '98765'}
 # 在下方编写你的代码
-contact['字符串精灵']='45678'
+contact['字符串精灵'] = '45678'
 del contact['程程老师']
-contact['编码精灵']='56789'
-for key,value in contact.items():
-    print(key,value)
-
-
+contact['编码精灵'] = '56789'
+for key, value in contact.items():
+    print(key, value)

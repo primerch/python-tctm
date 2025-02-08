@@ -1,0 +1,6 @@
+# 课堂练习2
+# 编写一个程序，获取到animals文件夹中的所有文件名并输出
+import os
+
+files = os.listdir('animals/')
+print(files)

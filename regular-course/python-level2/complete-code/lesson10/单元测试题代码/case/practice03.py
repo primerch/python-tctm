@@ -10,6 +10,3 @@ for item in scores:
     name = item[0]
     score = item[1]
     print("姓名: %s, 分数: %d分" % (name, score))
-
-
-

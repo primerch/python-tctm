@@ -1,0 +1,6 @@
+# 课堂练习1
+# 编写程序，查看自己当前使用电脑的操作系统
+import platform
+
+osName = platform.system()
+print(osName)

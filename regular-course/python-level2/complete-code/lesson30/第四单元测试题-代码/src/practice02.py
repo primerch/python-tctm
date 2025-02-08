@@ -9,5 +9,3 @@
 # 2.使用input输入的内容是字符串，需使用int()将其转换为整数
 # 3.除数为零错误类型ZeroDivisionError，值错误类型ValueError
 # 在下方编写你的代码
-
-

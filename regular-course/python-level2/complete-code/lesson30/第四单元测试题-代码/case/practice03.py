@@ -12,11 +12,14 @@
 # 2. 'rb'：以二进制格式打开一个文件用于只读；'wb'：以二进制格式打开一个文件只用于写入
 # 在下方编写你的代码
 import pickle
+
+
 def reverse_words(word):
     words = word[0:]
     reversed_words = words[::-1]
-    words=reversed_words
+    words = reversed_words
     return words
+
 
 # 检查是否存在保存的单词文件，并加载原始单词
 try:
@@ -35,5 +38,3 @@ print("反转后的单词:", reversed_word)
 # 保存新生成的单词
 with open('word.pkl', 'wb') as f:
     pickle.dump(reversed_word, f)
-
-

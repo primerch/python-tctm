@@ -6,7 +6,9 @@
 # （3）内层循环用来将当前要排序的元素正确归位
 # （4）变量交换：a,b=b,a
 # （5）break语句用于结束当前循环，跳出当前所在的循环结构
-scores = [97,95,92,99,100,98,91,93,96,94]
+scores = [97, 95, 92, 99, 100, 98, 91, 93, 96, 94]
+
+
 # 在下方编写你的代码
 def insertSort(list):
     for i in range(1, len(list)):
@@ -15,8 +17,7 @@ def insertSort(list):
                 list[j], list[j - 1] = list[j - 1], list[j]
             else:
                 break
+
+
 insertSort(scores)
 print(scores)
-
-
-

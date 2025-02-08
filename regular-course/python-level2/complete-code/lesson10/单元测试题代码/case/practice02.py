@@ -13,6 +13,4 @@ num = 0
 for i in poetry:
     if i == '黄':
         num += 1
-print("黄鹤楼这首诗中，黄鹤一共出现了："+ str(num) +'次')
-
-
+print("黄鹤楼这首诗中，黄鹤一共出现了：" + str(num) + '次')

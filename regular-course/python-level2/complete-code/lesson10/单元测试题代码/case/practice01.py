@@ -12,5 +12,3 @@ if 'hello' in str:
     print(index)
 else:
     print('Not found')
-
-

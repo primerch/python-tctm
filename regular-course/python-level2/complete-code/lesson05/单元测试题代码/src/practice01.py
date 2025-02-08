@@ -11,8 +11,6 @@
 # （8）将获取用户事件的代码放在while循环中
 import pygame
 import sys
+
 pygame.init()
 # 请在下方完成代码
-
-
-
