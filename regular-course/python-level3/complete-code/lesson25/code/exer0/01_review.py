@@ -1,0 +1,7 @@
+# 1.实时更新我的好友列表： http://l345.61it.cn:8080/l3/day25/exer0/p1/index.html
+
+# 2.服务端群发新好友登录信息： http://l345.61it.cn:8080/l3/day25/exer0/p2/index.html
+
+# 3.好友退出也能更新列表： http://l345.61it.cn:8080/l3/day25/exer0/p3/index.html
+
+# 4.单选题： http://l345.61it.cn:8080/l3/day25/exer0/p4/index.html

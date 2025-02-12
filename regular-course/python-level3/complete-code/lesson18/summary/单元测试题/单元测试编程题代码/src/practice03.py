@@ -9,7 +9,7 @@ class MyApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("我的窗口")
-        self.setFixedSize(400,500)
+        self.setFixedSize(400, 500)
         layout = QGridLayout()
         self.text = QLineEdit()
         self.button = QPushButton('点击我')
@@ -21,10 +21,7 @@ class MyApp(QWidget):
     # 定义事件处理函数
 
 
-
 app = QApplication([])
 widget = MyApp()
 widget.show()
 app.exec_()
-
-

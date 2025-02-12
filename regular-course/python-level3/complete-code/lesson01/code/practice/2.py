@@ -1,0 +1,25 @@
+"""
+作业题目:
+
+1. 定义一个名为Animal的类, 该类具有以下属性：
+      name (动物的名字，字符串类型)
+      age (动物的年龄，整数类型)
+2. 创建一个名为cat的Animal对象，存储它的名字tom和年龄3岁
+3. 通过对象访问属性，在控制台输出：hello，我叫tom，今年3岁了。
+
+"""
+
+
+# 请根据以下4个步骤编写代码
+# 1. 定义一个名为Animal的类
+class Animal:
+    # 2. 定义初始化方法__init__,并在其中定义name和age属性
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+
+# 3. 使用Animal类创建一个cat对象
+cat = Animal('tom', 3)
+# 4. 访问对象的属性，并使用字符串拼接符+，在控制台输出：hello，我叫tom，今年3岁了。
+print('hello,我叫' + cat.name + '，今年' + str(cat.age) + '岁了。')

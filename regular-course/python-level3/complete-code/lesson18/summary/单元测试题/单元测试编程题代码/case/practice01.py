@@ -12,7 +12,7 @@ class MyApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("我的窗口")
-        self.setFixedSize(400,500)
+        self.setFixedSize(400, 500)
 
 
 # 创建应用程序对象
@@ -23,5 +23,3 @@ widget = MyApp()
 widget.show()
 # 启动应用程序窗口
 app.exec_()
-
-

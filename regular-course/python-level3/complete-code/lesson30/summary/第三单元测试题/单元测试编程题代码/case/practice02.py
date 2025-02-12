@@ -1,4 +1,5 @@
 from socket import *
+
 # 1. 创建服务端socket对象
 serverSocket = socket()
 # 2. 绑定ip地址0.0.0.0和端口号10122

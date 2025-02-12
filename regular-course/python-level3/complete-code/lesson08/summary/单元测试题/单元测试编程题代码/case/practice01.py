@@ -3,6 +3,7 @@
 打印出"Hello, my name is {name}"，其中{name}是学生的名字。
 '''
 
+
 # 定义一个Student类
 class Student:
     # 初始化方法，接收一个参数name，将name赋值给对象的name属性
@@ -12,6 +13,7 @@ class Student:
     # 定义一个方法say_hello，打印出"Hello, my name is {name}"
     def say_hello(self):
         print(f"Hello, my name is {self.name}")
+
 
 # 创建一个Student对象，并调用say_hello方法
 xp = Student("小派")

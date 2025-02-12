@@ -1,0 +1,31 @@
+'''
+我想使用PyQt5创建一个窗口实现记作业功能，有以下要求：
+1. 核心功能通过名叫HomeworkWidget的类完成，继承QWidget
+2. 在初始化方法中添加layout属性，保存Grid布局，然后设置布局
+3. 在初始化方法中添加data属性，取值为空列表用于保存数据
+4. 创建主窗口，保存到变量window中
+5. 通过HomeworkWidget类创建对象保存在变量widget中，然后添加到主窗口
+6. 设置窗口标题为"记作业"
+7. 最大化显示窗口，执行应用
+8. 不要添加if __name__ == '__main__'，不要使用sys模块相关的内容
+请按照要返回需要的代码，不需要解释和扩展
+'''
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout
+
+
+class HomeworkWidget(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.layout = QGridLayout()
+        self.setLayout(self.layout)
+        self.data = []
+
+
+app = QApplication([])
+
+window = QMainWindow()
+widget = HomeworkWidget()
+window.setCentralWidget(widget)
+window.setWindowTitle("记作业")
+window.showMaximized()
+app.exec_()

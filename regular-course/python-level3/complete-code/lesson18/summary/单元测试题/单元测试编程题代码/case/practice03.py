@@ -9,7 +9,7 @@ class MyApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("我的窗口")
-        self.setFixedSize(400,500)
+        self.setFixedSize(400, 500)
         layout = QGridLayout()
         self.text = QLineEdit()
         self.button = QPushButton('点击我')
@@ -18,6 +18,7 @@ class MyApp(QWidget):
         self.setLayout(layout)
         # 为按钮添加点击事件
         self.button.clicked.connect(self.on_click)
+
     # 定义事件处理函数
     def on_click(self):
         self.text.setText("嘿嘿嘿~派大星我们去抓水母吧~")
@@ -27,5 +28,3 @@ app = QApplication([])
 widget = MyApp()
 widget.show()
 app.exec_()
-
-
